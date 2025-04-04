@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
   text-decoration: none;
   scroll-padding: 2rem;
   scroll-behavior: smooth;
@@ -39,6 +38,7 @@ nav {
 }
 
 .nav-logo a {
+  font-weight: 600;
   color: #ffffff;
 }
 
@@ -46,6 +46,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  list-style: none;
   gap: 2rem;
 }
 
